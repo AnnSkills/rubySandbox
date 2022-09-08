@@ -23,7 +23,6 @@ class Task1
     end
     return false
   end
-
 end
 
 ca = Task1.new
