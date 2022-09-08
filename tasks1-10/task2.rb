@@ -15,6 +15,5 @@ class Fibonacci
     sum
   end
 end
-
 test = Fibonacci.new
 p test.sumOfEvenFibonacci(4000000)
