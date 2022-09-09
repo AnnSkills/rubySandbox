@@ -11,12 +11,3 @@ class Calculation
     square_of_sum(n) - sum_of_squares(n)
   end
 end
-
-
-
-
-
-
-
-
-
