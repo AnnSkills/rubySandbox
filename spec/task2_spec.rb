@@ -1,6 +1,7 @@
-require '/home/hanna.khamiakova/RubymineProjects/sandbox/tasks1-10/task2'
+require 'task2'
+
 describe 'Fibonacci' do
-  it "Till four million, find the sum of the even-valued terms." do
+  it 'Till four million, find the sum of the even-valued terms.' do
     calculator = Fibonacci.new
     expect(calculator.sumOfEvenFibonacci(36)).to eq(44)
   end

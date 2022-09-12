@@ -1,4 +1,3 @@
-
 class PrimeMy
   def maxPrimeFactor(number)
     output = number
@@ -13,6 +12,5 @@ class PrimeMy
     output
   end
 end
-
 fin =  PrimeMy.new
 p fin.maxPrimeFactor(600851475143)

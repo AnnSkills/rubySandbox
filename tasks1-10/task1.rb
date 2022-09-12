@@ -24,6 +24,5 @@ class Task1
     return false
   end
 end
-
 ca = Task1.new
 p ca.sum_of_divisors()
