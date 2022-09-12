@@ -1,7 +1,7 @@
 class Four
-  def largestPalindromeOfThreeDigits()
-    boundary = 10**3 - 1
-    lowest = 1 + boundary / 10
+  def largest_palindrome_3_digits
+    boundary = 999
+    lowest = 100
     max = 0
     boundary.downto(lowest) do |i|
       boundary.downto(lowest) do |j|
@@ -15,10 +15,10 @@ class Four
         if initial == reverse && initial > max
           max = initial
         end
-        end
+      end
     end
     max
   end
 end
 four = Four.new
-p four.largestPalindromeOfThreeDigits
+p four.largest_palindrome_3_digits
