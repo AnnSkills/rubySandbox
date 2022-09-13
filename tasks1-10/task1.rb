@@ -22,4 +22,4 @@ class Task1
   end
 end
 ca = Task1.new
-p ca.sum_of_divisors()
+p ca.sum_of_divisors
