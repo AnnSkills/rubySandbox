@@ -1,10 +1,10 @@
 class Four
+  BOUNDARY = 999
+  LOWEST = 100
   def largest_palindrome_3_digits
-    boundary = 999
-    lowest = 100
     max = 0
-    boundary.downto(lowest) do |i|
-      boundary.downto(lowest) do |j|
+    BOUNDARY.downto(LOWEST) do |i|
+      BOUNDARY.downto(LOWEST) do |j|
         initial = i * j
         extension = initial
         reverse = 0
