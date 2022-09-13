@@ -1,6 +1,6 @@
 class Calculation
   def sum_of_squares(natural)
-    (1...natural).sum{ |x| x**2 }
+    (1...natural).sum { |x| x**2 }
   end
 
   def square_of_sum(n)
