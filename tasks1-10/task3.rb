@@ -1,5 +1,5 @@
 class PrimeMy
-  def maxPrimeFactor(number)
+  def max_prime_factor(number)
     output = number
     i=2
     while i * i <= output
@@ -13,4 +13,4 @@ class PrimeMy
   end
 end
 fin =  PrimeMy.new
-p fin.maxPrimeFactor(600851475143)
+p fin.max_prime_factor(600851475143)

@@ -1,10 +1,10 @@
 class Task1
+  BOUNDARY = 1000
   #for multiples of 3 OR 5
   def sum_of_divisors
     sum = 0
     count = 1
-    boundary = 1000
-    until count == boundary
+    until count == BOUNDARY
       unless count.is_a?(Integer)
         puts("Only natural nums")
       end

@@ -1,5 +1,5 @@
 class Fibonacci
-  def sumOfEvenFibonacci(boundary)
+  def sum_even_fibonacci(boundary)
     sum = 0
     i = 0
     fist_num = 0
@@ -16,4 +16,4 @@ class Fibonacci
   end
 end
 test = Fibonacci.new
-p test.sumOfEvenFibonacci(4000000)
+p test.sum_even_fibonacci(4000000)
