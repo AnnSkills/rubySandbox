@@ -1,7 +1,7 @@
 class PrimeMy
   def max_prime_factor(number)
     output = number
-    i=2
+    i = 2
     while i * i <= output
       while output % i == 0
         output /= i
@@ -12,5 +12,5 @@ class PrimeMy
     output
   end
 end
-fin =  PrimeMy.new
+fin = PrimeMy.new
 p fin.max_prime_factor(600851475143)
