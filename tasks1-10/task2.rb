@@ -6,7 +6,7 @@ class Fibonacci
     second_num = 1
     while i <= boundary
       i = fist_num + second_num
-      if i % 2 == 0
+      if i.even?
         sum += i
       end
       fist_num = second_num
